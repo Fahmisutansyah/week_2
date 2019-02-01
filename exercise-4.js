@@ -2,35 +2,54 @@ var tanggal = 2
 var bulan = 12
 var tahun = 2019
 
-switch(bulan){
-  case 1:
+switch(true){
+  case (tanggal >= 1 && tanggal <= 31 && tahun >= 1900 && tahun <= 2200 && bulan === 1):
     bulan = 'Januari';
+    console.log(tanggal, bulan, tahun)
     break
-  case 2:
+  case (tanggal >= 1 && tanggal <= 31 && tahun >= 1900 && tahun <= 2200 && bulan === 2) :
     bulan = 'Februari';
-  case 3:
+    console.log(tanggal, bulan, tahun)
+    break
+  case (tanggal >= 1 && tanggal <= 31 && tahun >= 1900 && tahun <= 2200 && bulan === 3):
     bulan = 'Maret';
-  case 4:
+    console.log(tanggal, bulan, tahun)
+    break
+  case (tanggal >= 1 && tanggal <= 31 && tahun >= 1900 && tahun <= 2200 && bulan === 4):
     bulan = 'April';
-  case 5:
+    console.log(tanggal, bulan, tahun)
+    break
+  case (tanggal >= 1 && tanggal <= 31 && tahun >= 1900 && tahun <= 2200 && bulan === 5):
     bulan = 'Mei';
-  case 6:
+    console.log(tanggal, bulan, tahun)
+    break
+  case (tanggal >= 1 && tanggal <= 31 && tahun >= 1900 && tahun <= 2200 && bulan === 6):
     bulan = 'Juni';
-  case 7:
+    console.log(tanggal, bulan, tahun)
+    break
+  case (tanggal >= 1 && tanggal <= 31 && tahun >= 1900 && tahun <= 2200 && bulan === 7):
     bulan = 'Juli';
-  case 8:
+    console.log(tanggal, bulan, tahun)
+    break
+  case (tanggal >= 1 && tanggal <= 31 && tahun >= 1900 && tahun <= 2200 && bulan === 8):
     bulan = 'Agustus';
-  case 9:
+    console.log(tanggal, bulan, tahun)
+    break
+  case (tanggal >= 1 && tanggal <= 31 && tahun >= 1900 && tahun <= 2200 && bulan === 9):
     bulan = 'September';
-  case 10:
+    break
+  case (tanggal >= 1 && tanggal <= 31 && tahun >= 1900 && tahun <= 2200 && bulan === 10):
     bulan = 'Oktober';
-  case 11:
+    console.log(tanggal, bulan, tahun)
+    break
+  case (tanggal >= 1 && tanggal <= 31 && tahun >= 1900 && tahun <= 2200 && bulan === 11):
     bulan = 'November';
-  case 12:
+    console.log(tanggal, bulan, tahun)
+    break
+  case (tanggal >= 1 && tanggal <= 31 && tahun >= 1900 && tahun <= 2200 && bulan === 12):
     bulan = 'Desember';
+    console.log(tanggal, bulan, tahun)
     break
   default:
-    bulan = '';
+    console.log('Data salah!')
 }
-
-console.log(tanggal, bulan, tahun)
