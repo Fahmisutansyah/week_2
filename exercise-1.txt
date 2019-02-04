@@ -1,0 +1,56 @@
+1.
+INPUT "massa" with number 600
+INPUT "percepatan" with number 2
+
+CALCULATE "massa" multiply by "percepatan"
+SET "resultan gaya" as result of calculation
+
+DISPLAY result : 1200
+
+2. 
+
+INPUT "tahun" to any number
+
+IF 'tahun' is 0 devided by 4 AND
+IF 'tahun' has some number left devided by 100
+
+THEN
+DISPLAY "tahun kabisat'
+
+ELSE 
+DISPLAY 'bukan tahun kabisat'
+
+IF 'tahun' is 0 devided by 4
+IF 'tahun' is 0 devided by 100
+IF 'tahun' is 0 devided by 400
+
+THEN
+DISPLAY 'tahun kabisat'
+
+ELSE 'bukan tahun kabisat'
+
+3.
+INPUT 'clothes' with 0
+
+WHILE 'clothse' is less than 20
+ADD 'clothes' by 1
+DISPLAY 'nyalakan mesin cuci'
+
+4.
+
+DECLARE
+long nails = hukuman
+short nails = pujian
+
+SET 'murid' to 1
+
+FOR 'murid' less than 40, adding 1 everytime;
+ IF 'murid' has long nails;
+  DISPLAY 'Kamu saya berikan hukuman!'
+ IF 'murid' has short nails;
+  DISPLAY 'Bagus!'
+
+
+
+
+
