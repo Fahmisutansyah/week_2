@@ -13,7 +13,7 @@ for (var rows = 1; rows <= rows2; rows++){
   var stars = ''
   for (var line = 1; line <= rows2; line++){
     stars = stars + ' *'
-
+  
   }
   console.log(stars)
   
@@ -29,3 +29,4 @@ for(var baris = 1; baris <= rows3; baris++) {
     stars1 = stars1 + ' *';
     }
     console.log(stars1);
+}
